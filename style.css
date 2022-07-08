@@ -19,6 +19,12 @@ body{
     height: 100vh;
     
 }
+.container__button{
+    background-color: var(--botao-azul);
+    border-radius: 8px;
+    color: var(--branco-principal);
+    display: block;
+}
 .layout-inicial{
     position: absolute;
     width: 588px;
