@@ -58,7 +58,48 @@ body{
 .container__caixa{
     margin: 0 6em;
 }
-
-.plataformas__descricao{
+.secundario{
+    margin: 0 5em;
     text-align: center;
+
+}
+.secundario__img{
+    margin: 0 2em;
+}
+.container__descricao{
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+}
+.descricao__titulo{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+
+}
+.descricao__paragrafo{
+    font-size: 16px;
+    opacity: 80%;
+    line-height: 24px;
+}
+.secundario__button{
+    margin-top: 1em;
+    display: inline-block;
+}
+.container__dispositivos{
+    margin: 0 1em 0 5em;
+    text-align: center;
+}
+.container__plataformas{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.plataformas__tipos{
+    text-align: center;
+    margin: 0.1em;
+    padding: 2em;
+}
+.descricao__plataformas{
+    font-size: 32px;
+    margin-top:1em;
 }
