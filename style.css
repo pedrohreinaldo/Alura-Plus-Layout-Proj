@@ -29,6 +29,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    align-items: center;
 }
 .container__button{
     background-color: var(--botao-azul);
@@ -56,4 +57,8 @@ body{
 }
 .container__caixa{
     margin: 0 6em;
+}
+
+.plataformas__descricao{
+    text-align: center;
 }
