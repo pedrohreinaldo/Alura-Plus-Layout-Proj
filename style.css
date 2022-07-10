@@ -103,3 +103,26 @@ body{
     font-size: 32px;
     margin-top:1em;
 }
+.footer__container{
+    margin: 1em 0.5em 1em 5em;
+    padding: 3em;
+    text-align: center;
+}
+.footer__img{
+    margin-bottom: 2em;
+}
+.footer__navbar a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-bottom: 1em;
+
+}
+.footer__caixa{
+    /* display: flex; */
+    /* flex-direction: column; */
+    line-height: 1em;
+}
+.footer_texto{
+    margin-top: 1em;
+    font-size: 8px;
+}
